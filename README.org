@@ -7,7 +7,9 @@
 
 keywords: [[https://srfi.schemers.org/?keywords=syntax][Syntax]]
 
-library-name: list-caseThis repository hosts [[https://srfi.schemers.org/srfi-239/][SRFI 239]]: Destructuring Lists, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
+library-name: list-case
+
+This repository hosts [[https://srfi.schemers.org/srfi-239/][SRFI 239]]: Destructuring Lists, a [[https://srfi.schemers.org/][Scheme Request for Implementation]].
 
 This SRFI is in /draft/ status.
 
