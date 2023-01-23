@@ -30,11 +30,11 @@
     (list-case x
       [(_ . _) 'pair]
       [() 'null]
-      [_ 'dotted])))
+      [_ 'atom])))
 
 (assert (eq? 'pair (type-of '(a . b))))
 (assert (eq? 'null (type-of '())))
-(assert (eq? 'dotted (type-of 'x)))
+(assert (eq? 'atom (type-of 'x)))
 
 (define fold
   (lambda (proc seed ls)

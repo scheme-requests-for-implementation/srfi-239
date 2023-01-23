@@ -126,7 +126,7 @@
     (list-case obj
       [(_ . _) 'pair]
       [() 'null]
-      [_ 'dotted])))
+      [_ 'atom])))
 
 (define fold
   (lambda (proc seed ls)
