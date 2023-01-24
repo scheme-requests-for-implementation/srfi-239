@@ -1,0 +1,10 @@
+There are two implementations of SRFI 239 in this directory.
+
+These files comprise Marc Nieper-Wißkirchen's ~syntax-case~ implementation:
+
+- ~239.sls~
+- ~:239/list-case.sls~
+
+This file is a ~syntax-rules~ implementation supplied by Robby Zambito:
+
+- ~239.sld~
