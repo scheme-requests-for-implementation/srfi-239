@@ -35,7 +35,7 @@
 	 (letrec-syntax ((make-clauses
 			  (syntax-rules ::: (_ pair null dotted matched)
 			    ((make-clauses obj p n d)
-			     (error "assertion-violation: no matching list-case clause" obj))
+			     (error "list-case: no matching clause" obj))
 
 			    ;; pair clauses
 			    ((make-clauses obj (matched pair) n d ((_ . _) body1 ::: body2) remaining :::)
