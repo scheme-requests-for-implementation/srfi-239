@@ -7,7 +7,7 @@
 
 
 
-keywords: [[https://srfi.schemers.org/?keywords=syntax][Syntax]]
+keywords: [[https://srfi.schemers.org/?keywords=pattern-matching][Pattern Matching]], [[https://srfi.schemers.org/?keywords=syntax][Syntax]]
 
 library-name: list-case
 
